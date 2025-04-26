@@ -1988,14 +1988,12 @@ p.innterpromo5 {
     }
     .innterpromo h2 {
         font-size: 24px;
-        font-weight: 600;
         line-height: normal;
         padding: 0px;
     }
     .innterpromo p {
         font-size: 18px;
         font-style: normal;
-        font-weight: 500;
         line-height: 30px; /* 166.667% */
     }
     .badge img {
