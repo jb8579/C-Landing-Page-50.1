@@ -1,0 +1,1300 @@
+@media screen and (min-width: 1200px) and (max-width: 1279px) {
+    .container {
+        padding: 0 30px;
+    }
+
+    .innerheroltitem1 p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .innerheroltitem1 h2 {
+        font-size: 30px;
+        padding-bottom: 23px;
+    }
+
+    .innerhrltitem2-left img {
+        height: 37px;
+    }
+
+    .innerhrltitem2-right a {
+        font-size: 15px;
+        width: 128px;
+        height: 44px;
+        line-height: 44px;
+        margin-left: 19px;
+    }
+
+    .innerhrltitem2-left h4 {
+        font-size: 16px;
+        padding-top: 15px;
+    }
+
+    .innerhrltitem2-right a img {
+        margin-left: 3px;
+        height: 13px;
+    }
+
+    .heroright h2 {
+        font-size: 48px;
+    }
+
+    .herorttext1 {
+        font-size: 32px;
+        line-height: 16px;
+        top: -12px;
+        left: 6px;
+    }
+
+    .heroright h2 span {
+        font-size: 70px;
+    }
+
+    .heroright {
+        padding: 95px 20px;
+    }
+
+    .heroboxitem {
+        padding: 30px 15px;
+        padding-top: 15px;
+    }
+
+    .heroboxitem img {
+        max-width: 100%;
+        display: block;
+        margin: auto;
+        height: 75px;
+    }
+
+    .heroboxitem h5 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .heroboxitem h2 {
+        font-size: 22px;
+        line-height: 40px;
+    }
+
+    .heroboxitem a {
+        font-size: 14px;
+        font-weight: 600;
+        width: 145px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 40px;
+        display: block;
+        margin: auto;
+        margin-top: 8px;
+    }
+
+    .playonlineboxs {
+        width: 100%;
+    }
+
+    .playonlinebox-left {
+        width: 36px;
+        margin-right: 10px;
+    }
+
+    .playonlinebox-right h3 {
+        font-size: 16px;
+        line-height: 27px;
+        padding-bottom: 6px;
+    }
+
+    .playonlinebox-right p {
+        font-size: 14px;
+        margin: 0;
+        line-height: 24px;
+        padding-bottom: 10px;
+    }
+
+    .bigwinlty-part {
+        background-image: initial;
+    }
+
+    .mbbigwinlty-part {
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+    }
+
+    .latestwinner-text h2 {
+        font-size: 14px;
+        line-height: 27px;
+        padding-bottom: 12px;
+    }
+
+    .ttpsitem-heading h3 {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+
+    .reviewsbox {
+        width: 100%;
+    }
+
+    .footer-part {
+        display: flex;
+        gap: 50px;
+    }
+
+    .footer-nav ul li a {
+        font-size: 15px;
+    }
+
+    .footer-nav ul li {
+        padding-bottom: 39px;
+    }
+
+    .footersocial ul li a img {
+        width: 35px;
+        height: 35px;
+        display: block;
+    }
+
+    .footerlogos ul li {
+        margin-right: 16px;
+    }
+
+    .footerlogos ul li a img {
+        height: 53px;
+    }
+
+    .topbg {
+        max-width: 37%;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        padding: 0 30px;
+    }
+
+    .innerheroltitem1 p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .innerheroltitem1 h2 {
+        font-size: 30px;
+        padding-bottom: 23px;
+    }
+
+    .innerhrltitem2-left img {
+        height: 37px;
+    }
+
+    .innerhrltitem2-right a {
+        font-size: 15px;
+        width: 128px;
+        height: 44px;
+        line-height: 44px;
+        margin-left: 19px;
+    }
+
+    .innerhrltitem2-left h4 {
+        font-size: 16px;
+        padding-top: 15px;
+    }
+
+    .innerhrltitem2-right a img {
+        margin-left: 3px;
+        height: 13px;
+    }
+
+    .heroright h2 {
+        font-size: 48px;
+    }
+
+    .herorttext1 {
+        font-size: 32px;
+        line-height: 16px;
+        top: -12px;
+        left: 6px;
+    }
+
+    .heroright h2 span {
+        font-size: 70px;
+    }
+
+    .heroright {
+        padding: 95px 20px;
+    }
+
+    .heroboxitem {
+        padding: 30px 15px;
+        padding-top: 15px;
+    }
+
+    .heroboxitem img {
+        max-width: 100%;
+        display: block;
+        margin: auto;
+        height: 75px;
+    }
+
+    .heroboxitem h5 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .heroboxitem h2 {
+        font-size: 22px;
+        line-height: 40px;
+    }
+
+    .heroboxitem a {
+        font-size: 14px;
+        font-weight: 600;
+        width: 145px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 40px;
+        display: block;
+        margin: auto;
+        margin-top: 8px;
+    }
+
+    .playonlineboxs {
+        width: 100%;
+    }
+
+    .playonlinebox-left {
+        width: 36px;
+        margin-right: 10px;
+    }
+
+    .playonlinebox-right h3 {
+        font-size: 16px;
+        line-height: 27px;
+        padding-bottom: 6px;
+    }
+
+    .playonlinebox-right p {
+        font-size: 14px;
+        margin: 0;
+        line-height: 24px;
+        padding-bottom: 10px;
+    }
+
+    .bigwinlty-part {
+        background-image: initial;
+    }
+
+    .mbbigwinlty-part {
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+    }
+
+    .latestwinner-text h2 {
+        font-size: 14px;
+        line-height: 27px;
+        padding-bottom: 12px;
+    }
+
+    .ttpsitem-heading h3 {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+
+    .reviewsbox {
+        width: 100%;
+    }
+
+    .footer-part {
+        display: flex;
+        gap: 50px;
+    }
+
+    .footer-nav ul li a {
+        font-size: 15px;
+    }
+
+    .footer-nav ul li {
+        padding-bottom: 39px;
+    }
+
+    .footersocial ul li a img {
+        width: 35px;
+        height: 35px;
+        display: block;
+    }
+
+    .footerlogos ul li {
+        margin-right: 16px;
+    }
+
+    .footerlogos ul li a img {
+        height: 53px;
+    }
+
+    .topbg {
+        position: absolute;
+        right: 0;
+        top: 0;
+        max-width: 48%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .container {
+        padding: 0 30px;
+    }
+
+    .heropart {
+        display: block;
+    }
+
+    .mbheroleft {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+    .heroleft {
+        width: 100%;
+        padding: 30px;
+        height: initial;
+    }
+
+    .heroright {
+        width: 100%;
+    }
+
+    .heroright {
+        padding: 90px 25px;
+        height: initial;
+    }
+
+    .heroboxpart {
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 35px;
+    }
+
+    .playonlineboxs {
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 25px;
+        grid-row-gap: 25px;
+    }
+
+    .playonline-part {
+        display: block;
+    }
+
+    .playonline-left {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+    .playonline-right {
+        width: 30%;
+        display: none;
+    }
+
+    .newplayonline-right {
+        display: block;
+        margin-top: 40px;
+    }
+
+    .newplayonline-right img {
+        max-width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    .bigwinlty-part {
+        background-image: initial;
+        display: block;
+    }
+
+    .bigwinlty-left {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    .bigwinlty-right {
+        width: 100%;
+    }
+
+    .mbbigwinlty-part {
+        background-position: bottom;
+    }
+
+    .latestwinner-part {
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 43px;
+    }
+
+    .ttpsitem-part {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .playreviews-part {
+        display: block;
+    }
+
+    .playreviews-left {
+        width: 100%;
+        margin-bottom: 45px;
+    }
+
+    .playreviews-right {
+        width: 100%;
+        position: relative;
+    }
+
+    .mainfaqpart {
+        display: block;
+    }
+
+    .faqright {
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .faqleft {
+        width: 100%;
+    }
+
+    .faqleft img {
+        max-width: 55%;
+        display: block;
+        margin: auto;
+    }
+
+    .faqleftbg {
+        max-width: 100%;
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 11%;
+        height: 188px;
+    }
+
+    .footer-part {
+        display: block;
+    }
+
+    .footerleft {
+        width: 100%;
+        margin-bottom: 55px;
+    }
+
+    .footerright {
+        width: 100%;
+    }
+
+    .footerlogos ul li {
+        margin-right: 20px;
+    }
+
+    .footerlogos ul li a img {
+        height: 49px;
+    }
+
+    .footer-nav ul {
+        text-align: center;
+        padding-top: 0;
+        padding-bottom: 30px;
+    }
+
+    .footer-nav ul li {
+        display: inline-block;
+        padding-bottom: 0px;
+        margin: 0 15px;
+    }
+
+    .footersocial ul {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .topbg {
+        position: absolute;
+        right: 0;
+        top: 0;
+        max-width: 58%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .heropart {
+        display: block;
+    }
+
+    .topheader-area {
+        padding: 5px 10px;
+    }
+
+    .topheader-part {
+        display: block;
+    }
+
+    .topheader-left p {
+        font-size: 10px;
+        margin: 0;
+        font-weight: 600;
+        display: flex;
+        text-align: left;
+        line-height: 13px;
+    }
+
+    .topheader-right ul {
+        padding-left: 0;
+        text-align: center;
+        padding-top: 11px;
+    }
+
+    .ziehharmonika > div {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 13px 12px;
+    }
+
+    .heroleft {
+        width: 100%;
+        background-image: initial;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 20px;
+        padding: 30px 15px;
+        box-sizing: border-box;
+        display: block;
+        align-items: center;
+        gap: 25px;
+        height: initial;
+    }
+
+    .innerheroltitem2 {
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        gap: 12px;
+    }
+
+    .mbheroleft {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .header-btn ul li a {
+        font-size: 13px;
+        width: 70px;
+        height: 38px;
+        line-height: 38px;
+        font-weight: 600;
+    }
+
+    .header-btn ul li {
+        padding-left: 5px;
+    }
+
+    .header-logo {
+        width: 30%;
+    }
+
+    .header-btn {
+        width: 70%;
+    }
+
+    .header-btn ul li:nth-child(2) a {
+        width: 90px;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .header-btn ul li:nth-child(1) a {
+        font-size: 14px;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .header-btn ul li:nth-child(2) a {
+        font-size: 14px;
+    }
+
+    .innerheroleft {
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+    .innerheroright {
+        width: 100%;
+    }
+
+    .header-logo img {
+        display: block;
+        max-width: 80%;
+    }
+
+    .innerheroltitem1 h2 br {
+        display: block;
+    }
+
+    .innerheroltitem1 h2 {
+        font-size: 30px;
+        padding-bottom: 0px;
+    }
+
+    .innerheroltitem1 p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .innerhrltitem2-left h4 {
+        font-size: 13px;
+        padding-top: 14px;
+    }
+
+    .innerhrltitem2-right a {
+        font-size: 14px;
+        font-weight: 600;
+        width: 120px;
+        height: 35px;
+        line-height: 36px;
+        text-align: center;
+        border-radius: 40px;
+        margin-left: 0px;
+    }
+
+    .innerhrltitem2-left img {
+        max-width: 100%;
+        display: block;
+        height: 29px;
+    }
+
+    .heroright {
+        width: 100%;
+    }
+
+    .heroright {
+        border-radius: 20px;
+        padding: 50px 15px;
+        box-sizing: border-box;
+        height: initial;
+    }
+
+    .heroright h2 span {
+        font-size: 76px;
+    }
+
+    .herorttext1 {
+        font-size: 31px;
+        line-height: 16px;
+        top: -11px;
+        left: 5px;
+    }
+
+    .heroright h2 {
+        font-size: 50px;
+        margin: 0;
+        text-align: right;
+        line-height: 73px;
+    }
+
+    .heroright h3 {
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: -14px;
+    }
+
+    .heroright p {
+        font-size: 12px;
+    }
+
+    .heroboxpart {
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 10px;
+        justify-content: space-around;
+        grid-row-gap: 10px;
+    }
+
+    .heroboxitem img {
+        max-width: 100%;
+        height: 42px;
+    }
+
+    .heroboxitem h5 {
+        font-size: 12px;
+        font-weight: 600;
+        margin: 0;
+        line-height: 15px;
+    }
+
+    .heroboxitem h2 {
+        font-size: 18px;
+        text-align: center;
+        line-height: 25px;
+    }
+
+    .heroboxitem {
+        padding: 20px 5px;
+        box-sizing: border-box;
+        padding-top: 15px;
+    }
+
+    .heroboxitem a {
+        font-size: 11px;
+        font-weight: 600;
+        width: 110px;
+        height: 35px;
+        line-height: 35px;
+        text-align: center;
+        border-radius: 40px;
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .hero-area {
+        padding: 15px 0;
+        padding-bottom: 40px;
+    }
+
+    .playonline-part {
+        display: block;
+    }
+
+    .playonline-left {
+        width: 100%;
+    }
+
+    .playonline-area {
+        padding: 35px 0;
+    }
+
+    .playonline-left h2 {
+        font-size: 20px;
+        padding-bottom: 25px;
+    }
+
+    .playonline-left h2 br {
+        display: block;
+    }
+
+    .playonline-left p {
+        font-size: 14px;
+        margin: 0;
+        line-height: 25px;
+        padding-bottom: 20px;
+    }
+
+    .playonline-right {
+        width: 100%;
+        display: none;
+    }
+
+    .newplayonline-right {
+        display: block;
+    }
+
+    .newplayonline-right img {
+        max-width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    .playonlineboxs {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 25px;
+        grid-row-gap: 15px;
+        margin-top: 30px;
+        margin-bottom: 45px;
+    }
+
+    .playonlinebox {
+        border-radius: 15px;
+        padding: 15px;
+        align-items: start;
+        padding-top: 20px;
+    }
+
+    .playonlinebox-left {
+        width: 33px;
+        margin-right: 7px;
+    }
+
+    .playonlinebox-right h3 {
+        font-size: 16px;
+        line-height: 32px;
+        padding-bottom: 3px;
+    }
+
+    .playonlinebox-right p {
+        font-size: 14px;
+        margin: 0;
+        line-height: 24px;
+        padding-bottom: 9px;
+    }
+
+    .bigwinlty-area {
+        padding: 50px 0;
+        padding-bottom: 0px;
+    }
+
+    .bigwinlty-part {
+        background-image: inherit;
+        background-repeat: no-repeat;
+        padding: 25px 15px;
+        box-sizing: border-box;
+        display: block;
+    }
+
+    .bigwinlty-left {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .bigwinlty-right {
+        width: 100%;
+        margin-top: 190px;
+    }
+
+    .bigwinlty-right h4 {
+        font-size: 16px;
+    }
+
+    .bigwinlty-right h2 {
+        font-size: 51px;
+        margin-bottom: 0px;
+        line-height: 71px;
+    }
+
+    .herototimerbox-text h2 {
+        font-size: 18px;
+    }
+
+    .herototimerbox-text h2 span {
+        font-size: 62px;
+        text-transform: uppercase;
+        filter: drop-shadow(-3px 2px #fff);
+    }
+
+    .timerhd1 {
+        font-size: 30px;
+        top: -6px;
+    }
+
+    .latestwinner-area {
+        padding: 40px 0;
+    }
+
+    .latestwinner-hd h2 {
+        font-size: 20px;
+    }
+
+    .latestwinner-hd {
+        padding-bottom: 30px;
+    }
+
+    .latestwinner-part {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 45px;
+    }
+
+    .latestwinner-text h2 {
+        font-size: 16px;
+        line-height: 26px;
+        padding-bottom: 8px;
+    }
+
+    .latestwinner-box3 h6 {
+        padding-top: 0px;
+    }
+
+    .ttps-area {
+        padding: 30px 0;
+        padding-top: 30px;
+    }
+
+    .ttpspart-heading h2 {
+        font-size: 20px;
+    }
+
+    .ttpspart-heading {
+        padding-bottom: 30px;
+    }
+
+    .ttpsitem-part {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .playreviews-area {
+        padding: 35px 0;
+        padding-bottom: 35px;
+    }
+
+    .playreviews-part {
+        display: block;
+    }
+
+    .playreviews-left {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+    .playreviews-left h2 {
+        font-size: 20px;
+    }
+
+    .playreviews-left h6 {
+        font-size: 14px;
+        font-weight: 400;
+        margin: 0;
+        padding-bottom: 15px;
+    }
+
+    .playreviews-left a {
+        font-size: 12px;
+    }
+
+    .reviewsbox {
+        padding: 35px 20px;
+        width: 100%;
+        border: 1px solid #aaaaaa66;
+        box-shadow: none;
+    }
+
+    .playreviews-right {
+        width: 100%;
+        position: relative;
+    }
+
+    .faq-area {
+        padding: 40px 0;
+        position: relative;
+    }
+
+    .mainfaqpart {
+        display: block;
+    }
+
+    .faqleft {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .faqleft img {
+        max-width: 80%;
+        display: block;
+        margin: auto;
+    }
+
+    .faqright {
+        width: 100%;
+    }
+
+    .ziehharmonika h3 {
+        font-size: 14px;
+        padding: 10px 10px;
+    }
+
+    .ziehharmonika .collapseIcon img {
+        max-width: 76%;
+    }
+
+    .ziehharmonika .collapseIcon {
+        right: 0px;
+    }
+
+    .faq-heading h2 br {
+        display: block;
+    }
+
+    .faq-heading h2 {
+        font-size: 20px;
+    }
+
+    .faq-heading {
+        padding-bottom: 30px;
+    }
+
+    .faqleftbg {
+        max-width: initial;
+        left: 0;
+        top: 12%;
+        height: 110px;
+    }
+
+    .footer-area {
+        padding: 40px 0;
+        padding-bottom: 0px;
+    }
+
+    .footer-part {
+        display: block;
+    }
+
+    .footerleft {
+        width: 100%;
+    }
+
+    .footerright {
+        width: 100%;
+    }
+
+    .footerasgp-part ul li a img {
+        height: 40px;
+    }
+
+    .footertext {
+        padding-top: 30px;
+    }
+
+    .footertext p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 27px;
+        padding-bottom: 12px;
+    }
+
+    .footerlogos ul li {
+        display: inline-block;
+        margin-right: 15px;
+        padding-bottom: 15px;
+    }
+
+    .footerlogos ul li a img {
+        max-width: 100%;
+        display: block;
+        margin: auto;
+        height: 32px;
+    }
+
+    .footer-nav ul {
+        padding-top: 0px;
+        padding-bottom: 15px;
+    }
+
+    .footer-nav ul li {
+        display: block;
+    }
+
+    .footersocial ul {
+        padding-bottom: 15px;
+    }
+
+    .footersocial ul li a img {
+        width: 40px;
+        height: 40px;
+        display: block;
+    }
+
+    .footer-copyright {
+        padding: 12px 5px;
+    }
+
+    .footer-copyright p {
+        font-size: 12px;
+    }
+
+    .playreviews-area .owl-carousel .owl-stage-outer {
+        padding: 0px;
+    }
+
+    .reviewbg {
+        height: 50px;
+    }
+
+    .customPrevBtn1 img {
+        height: 19px;
+    }
+
+    .customNextBtn1 img {
+        height: 19px;
+    }
+
+    .customPrevBtn1 {
+        width: 38px;
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .customNextBtn1 {
+        width: 38px;
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .playreviews-area .owl-nav {
+        bottom: 34px;
+        z-index: 99;
+        right: 22px;
+        gap: 7px;
+    }
+
+    .reviewsbox h3 {
+        padding-top: 30px;
+    }
+
+    .popuppart {
+        width: 300px;
+        display: block;
+        margin: auto;
+        height: initial;
+    }
+
+    .popupleft {
+        width: 100%;
+        display: none;
+    }
+
+    .popupright {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        align-items: center;
+        padding: 30px 15px;
+        box-sizing: border-box;
+        border-radius: 15px;
+        margin-left: 0px;
+        position: relative;
+        z-index: 9;
+    }
+
+    .popupform-heading h3 {
+        font-size: 18px;
+    }
+
+    .popupform-heading p {
+        font-size: 12px;
+    }
+
+    .popupform-item1 {
+        display: block;
+    }
+
+    .ppform-item1-left {
+        width: 100%;
+    }
+
+    .ppform-item1-right {
+        width: 100%;
+    }
+
+    .popupformitems p {
+        font-size: 12px;
+        line-height: 18px;
+        padding-bottom: 18px;
+    }
+
+    .popupformitems input {
+        font-size: 12px;
+        width: 100%;
+        padding: 10px 10px;
+        outline: none;
+        margin-bottom: 6px;
+        height: inherit;
+    }
+
+    .popupformitems input::placeholder {
+        font-size: 12px;
+    }
+
+    .popupform-heading {
+        padding-bottom: 15px;
+    }
+
+    .popupformitems h6 {
+        font-size: 9px;
+        font-weight: 400;
+        line-height: 18px;
+        margin-top: -6px;
+        margin-bottom: 10px;
+    }
+
+    .popupformitems input[type="submit"] {
+        font-size: 14px;
+        padding: 14px 14px;
+        margin-bottom: 0px;
+    }
+
+    .toggle-password img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .toggle-password {
+        right: 6px;
+        top: 9px;
+    }
+
+    .checkmark {
+        top: 4px;
+        height: 14px;
+        width: 14px;
+        border-radius: 0px;
+    }
+
+    .checkboxpart .checkmark:after {
+        left: 5px;
+        top: 1px;
+        width: 3px;
+        height: 8px;
+    }
+
+    .checkboxpart {
+        padding-left: 23px;
+        font-size: 10px;
+        padding-right: 0px;
+        line-height: 17px;
+    }
+
+    .popupform-item3 h5 {
+        font-size: 10px;
+        padding-top: 18px;
+    }
+
+    .close-btn img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .close-btn {
+        width: 35px;
+        height: 36px;
+        top: 5px;
+        right: 5px;
+        background: none;
+    }
+
+    .popupform-logo img {
+        width: 119px;
+        height: 119px;
+        display: block;
+        margin: auto;
+    }
+
+    .rbmeftpd-right p a {
+        font-size: 14px;
+    }
+
+    .topbg {
+        position: absolute;
+        right: 0;
+        top: 0;
+        max-width: 80%;
+    }
+
+    .newhero-heading h2 {
+        font-size: 20px;
+        line-height: 26px;
+        padding-bottom: 12px;
+    }
+
+    .newhero-heading p {
+        font-size: 14px;
+    }
+
+    .newheroitem1 h3 {
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+
+    .newheroitem2 h3 {
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+}
