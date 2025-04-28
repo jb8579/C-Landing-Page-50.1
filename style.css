@@ -30,25 +30,41 @@ ul {
 }
 
 .topheader-area {
-    background-color: #fcbc0b;
-    padding: 2px 0;
+    background-color: #1d62ae;
+    padding: 6px 0;
+    overflow: hidden;
 }
 
 .topheader-part {
     display: flex;
     align-items: center;
     justify-content: center;
+    animation: zoomInOut 4s infinite ease-in-out;
 }
 
+@keyframes zoomInOut {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.02);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
 .topheader-left p {
-    color: #000000;
-    font-size: 12px;
+    color: #ffffff;
+    font-size: 14px;
     margin: 0;
-    font-weight: bold;
+    font-weight: 400;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-style: italic;
 }
 
 .topheader-left p img {
@@ -145,7 +161,7 @@ ul {
     max-width: 1280px;
     display: block;
     margin: auto;
-    padding: 0 15px;
+    padding: 0 10px;
 }
 
 .topbg {
@@ -754,12 +770,12 @@ ul {
 }
 
 .footer-copyright p {
-    color: #666666;
+    color: #000000;
     font-size: 14px;
     text-align: center;
     margin: 0;
-    font-weight: 300;
-    line-height: 20px;
+    font-weight: 500;
+    line-height: 16px;
 }
 
 .footersocial ul {
@@ -1973,7 +1989,11 @@ p.innterpromo5 {
 .innerheroteam a:hover {
     background: linear-gradient(180deg, #ffffff 0%, #6cbbdb 100%);
 }
-
+@media screen and (max-width: 868px) and (min-width: 767px){
+    header.header-area.sm-part-none {
+        display: none;
+    }
+}
 @media screen and (max-width: 600px) {
     .promopart {
         display: block;
@@ -2013,7 +2033,7 @@ p.innterpromo5 {
         margin-top: 2px;
     }
     .header-area {
-        padding: 10px 0;
+        padding: 2px 0;
     }
     .topbg {
         position: absolute;
