@@ -527,7 +527,7 @@
         top: -7px;
     }
     .topheader-area {
-        padding: 6px 10px 5px 10px;
+        padding: 6px 4px 5px 4px;
     }
 
     .topheader-part {
@@ -535,9 +535,9 @@
     }
 
     .topheader-left p {
-        font-size: 12px;
+        font-size: 9px;
         margin: 0;
-        font-weight: 500;
+        font-weight: 400;
         display: flex;
         text-align: center;
         line-height: 15px;
