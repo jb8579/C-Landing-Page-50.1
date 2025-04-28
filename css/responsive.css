@@ -522,14 +522,16 @@
         display: block;
     }
     .topheader-right {
-        height: 30px;
+        height: 25px;
         position: relative;
-        top: -7px;
+        top: -6px;
     }
     .topheader-area {
         padding: 6px 4px 5px 4px;
     }
-
+    img.logo-p-1 {
+        width: 29px !important;
+    }
     .topheader-part {
         display: block;
     }
