@@ -93,7 +93,7 @@ ul {
 
 .header-area {
     background-color: #fff;
-    padding: 0px 0;
+    padding: 15px 0px 10px 0px;
     position: relative;
 }
 
@@ -124,7 +124,7 @@ ul {
     color: #fff;
     font-size: 16px;
     font-weight: 600;
-    width: 85px;
+    width: 130px;
     height: 45px;
     display: block;
     background-color: #000;
@@ -135,8 +135,8 @@ ul {
 }
 
 .header-btn ul li:nth-child(1) a:hover {
-    background-color: #eed200;
-    color: #000;
+    background-color: #ff6217;
+    color: #ffffff;
 }
 
 .header-btn ul li:nth-child(2) a {
@@ -382,9 +382,8 @@ ul {
 
 .heroboxitem {
     border-radius: 20px;
-    padding: 30px 30px;
+    padding: 50px 30px;
     box-sizing: border-box;
-    padding-top: 15px;
 }
 
 .heroboxitembg1 {
@@ -453,7 +452,7 @@ ul {
     display: block;
     margin: auto;
     transition: 0.3s all ease;
-    margin-top: 17px;
+    margin-top: 20px;
 }
 
 .heroboxitem a:hover {
@@ -661,7 +660,7 @@ ul {
 
 .footer-area {
     background-color: #fff;
-    padding: 40px 0px 90px 0;
+    padding: 0px 0px 90px 0px;
     padding-bottom: 0px;
 }
 
@@ -1343,307 +1342,248 @@ ul {
     display: none;
 }
 
-.popup-area {
-    padding: 0;
+.form-bg{
+    padding: 40px 0px;
+        border-bottom: 1px solid #a6a6a6;
+        padding-bottom: 70px;
 }
-
-.popuppart {
-    width: 520px;
-    margin: auto;
-    height: auto;
-    background-color: #fff;
-    border-radius: 20px;
+.form-container {
+    background: white;
+    padding: 20px 20px 40px 20px;
+    border-radius: 12px;
+    width: 450px;
+    text-align: center;
+    margin: 0px auto;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
-
-.popupright {
-    width: 100%;
-    height: 100%;
-    padding: 30px 45px;
-    box-sizing: border-box;
-    position: relative;
-    z-index: 9;
-    border-radius: 20px;
+.form-title {
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 15px 0px;
 }
-
-.popupform-logo {
-    text-align: center;
-    padding-bottom: 20px;
-}
-
-.popupform-logo img {
-    width: 200px;
-    height: 105px;
-    display: block;
-    margin: auto;
-}
-
-.popupformitems p {
-    color: #333;
-    font-size: 16px;
-    line-height: 18px;
+input {
+    width: calc(100% - 55px);
+    padding: 17px 18px;
     margin: 10px 0;
-    padding-bottom: 10px;
-}
-
-.popupformitems input {
+    border: 0px;
+    color: rgba(0, 0, 0, 0.50);
     font-family: "Poppins", sans-serif;
-    color: #333;
     font-size: 16px;
-    width: 100%;
-    font-weight: 300;
-    padding: 14px 23px;
-    height: 46px;
-    box-sizing: border-box;
-    border-radius: 5px;
-    border: 1.5px solid #eee;
-    outline: none;
-    margin-bottom: 10px;
-    background-color: #f6f6f6;
-    transition: border-color 0.3s ease;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.04);
 }
-
-.popupformitems input:focus {
-    border: 1.5px solid #fd6f06;
+input#terms {
+    width: 30px;
 }
-
-.popupformitems input::placeholder {
-    color: #aaa;
-    font-size: 18px;
+small {
+    display: block;
+    font-size: 11px;
+    color: #ef6827;
+    margin-bottom: 12px;
+    padding: 0px 12px;
+    text-align: left;
+    line-height: 13px;
 }
-
-.maincheckbox {
-    padding-bottom: 35px;
-    margin-top: 11px;
+.checkbox {
+    display: flex;
+    align-items: baseline;
+    font-size: 14px;
+    margin: 10px 0 20px 0px;
+    text-align: left;
+    padding: 0px 17px;
+    color: rgba(0, 0, 0, 0.80);
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
 }
-
-.checkboxpart {
+.checkbox input {
+    margin-right: 8px;
     position: relative;
-    padding-left: 28px;
+    top: 2px;
+}
+.form-container button {
+    width: calc(100% - 20px);
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #eb510a;
+    border: none;
     cursor: pointer;
-    color: #333;
+    color: #FFF;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    text-transform: capitalize;
+    transition: background 0.3s;
+}
+.form-container button:disabled {
+    cursor: not-allowed;
+    background-color: #ff6217;
+}
+.form-container button:hover:not(:disabled) {
+    background-color: #9e3e12;
+}
+.login-link {
+    margin: 30px 0px 15px 0px;
+    color: #000;
+    text-align: center;
     font-size: 15px;
-    line-height: 22px;
+    font-style: normal;
     font-weight: 300;
-    align-items: center;
-    display: flex;
-    padding-right: 60px;
+    line-height: 22px; 
 }
-
-.checkboxpart input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-}
-
-.checkmark {
-    position: absolute;
-    top: 4px;
-    left: 0;
-    height: 15px;
-    width: 15px;
-    border: 1px solid #333;
-    border-radius: 4px;
-}
-
-.checkmark:after {
-    content: "";
-    position: absolute;
-    display: none;
-}
-
-.checkboxpart input:checked ~ .checkmark:after {
-    display: block;
-    left: 7px;
-    top: 3px;
-    width: 6px;
-    height: 10px;
-    border: solid #333;
-    border-width: 0 2px 2px 0;
-    transform: rotate(45deg);
-}
-
-.password-container {
-    position: relative;
-    display: flex;
-    align-items: center;
-}
-
-.password-container input {
-    padding-right: 40px;
-    width: 100%;
-}
-
-.toggle-password {
-    position: absolute;
-    right: 15px;
-    top: 15px;
-    cursor: pointer;
-    background: none;
-    border: none;
-    width: 24px;
-    height: 24px;
-}
-
-.toggle-password img {
-    filter: brightness(0) saturate(100%) invert(73%) sepia(69%) saturate(6461%)
-        hue-rotate(356deg) brightness(105%) contrast(105%);
-    width: 17px;
-    height: 17px;
-}
-
-.popupformitems input[type="submit"] {
-    color: #fff;
-    font-size: 18px;
-    font-weight: bold;
-    width: 100%;
-    padding: 14px;
-    box-sizing: border-box;
-    border-radius: 5px;
-    border: none;
-    outline: none;
-    margin-bottom: 10px;
-    cursor: pointer;
-    background: #ff8303;
-    transition: background-color 0.3s ease;
-}
-
-.popupformitems input[type="submit"]:hover {
-    background-color: #ff6c00;
-}
-.popupformitems button.login-btn,
-.popupformitems button.register-btn,
-.popupformitems button.forgot-password-bt {
-    color: #fff;
-    font-size: 18px;
-    font-weight: bold;
-    width: 100%;
-    padding: 14px;
-    box-sizing: border-box;
-    border-radius: 5px;
-    border: none;
-    outline: none;
-    margin-bottom: 10px;
-    cursor: pointer;
-    background: #ff8303;
-    transition: background-color 0.3s ease;
-}
-
-input.forgot-password-btn {
-    font-weight: 600 !important;
-    height: 56px;
-    margin-top: 25px 0px 0px 0px;
-}
-
-.popupformitems button.register-btn:hover {
-    background-color: #ff6c00;
-}
-
-.popupform-item3 h5 {
-    color: #777;
-    font-size: 16px;
-    text-align: center;
-    font-weight: 300;
-    margin: 0;
-    padding-top: 35px;
-}
-
-.popupform-item3 h5 a {
-    color: #1140ac;
-    font-weight: 400;
+.login-link a {
+    color: #ED2939;
     text-decoration: underline;
+    font-weight: 500;
+}
+.login-link a:hover {
+    color: #ED2939;
 }
 
-.popup {
+.login-link {
+    margin: 30px 0px 15px 0px;
+}
+
+.form-container button#resetBtn{
+    margin: 10px 0px 15px 0px !important;
+}
+
+.form-container button#backToLogin{
+    background: transparent !important;
+    color: #ED2939;
+    margin: 0px !important;
+    padding: 0px !important;
+    text-decoration: underline;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+}
+
+.hidden{
     display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 99999;
 }
 
-.popup.active {
-    display: block;
+button#loginBtn {
+    margin: 10px 0px 15px 0px;
 }
 
-.close-btn {
-    width: 45px;
-    height: 45px;
-    background-color: #fff;
-    border: none;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    cursor: pointer;
-    z-index: 99;
-    border-radius: 50%;
-}
-
-.close-btn img {
-    filter: brightness(0) saturate(100%) invert(0%) sepia(4%) saturate(0%)
-        hue-rotate(324deg) brightness(102%) contrast(105%);
-    width: 20px;
-    height: 20px;
-}
-
-.overlay {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.795);
-    z-index: 9999;
-}
-
-.overlay.active {
-    display: block;
-}
-
-.popuplogo-part {
-    padding: 15px 25px;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    box-sizing: border-box;
-    background-color: #fff;
-    border-radius: 20px 20px 0 0;
-    text-align: center;
-}
-
-.popuplogo-part img {
-    height: 51px;
-}
-
-.rbmeftpd-right p {
-    margin: 0;
+.forget-p{
+    color: #ED2939;
     text-align: right;
+    width: calc(100% - 20px);
+    text-decoration: underline;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 12px 0px 20px 0px;
 }
 
-.rbmeftpd-right p a {
-    color: #1140ac;
+div#forgotPasswordForm {
+    padding: 50px 20px;
+}
+
+.password-flex {
+    display: flex;
+    align-items: center;
+    margin: 10px 10px;
+    border-radius: 6px;
+    background-color: #f5f5f5;
+}
+  
+.password-flex input[type="password"], .password-flex input[type="text"] {
+    border: none;
+    outline: none;
+    flex: 1;
     font-size: 16px;
-    text-decoration: underline;
-    font-weight: 400;
+    background: transparent;
+    margin: 0px;
 }
-
-.loginpart {
-    padding-bottom: 20px;
+  
+.password-flex img {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    position: relative;
+    left: -14px;
 }
+/* Existing styles remain unchanged */
 
-.popupformitems button.login-btn {
-    background-color: #1c1672;
-}
-
-.forgot-password > p > a {
-    text-decoration: underline;
-}
-
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .form-container {
+      width: 90%;
+      padding: 20px 15px 30px 15px;
+    }
+    
+    .form-title {
+      font-size: 26px;
+    }
+    
+    .form-container button, .forget-p {
+      width: 100%;
+      max-width: calc(100% - 10px);
+    }
+    input {
+        width: 100%;
+        max-width: calc(100% - 45px);
+    }
+    .checkbox {
+      padding: 0 10px;
+    }
+  
+    .password-flex {
+      margin: 10px 5px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .form-title {
+      font-size: 22px;
+      padding: 10px 0;
+    }
+    
+    .form-container {
+      padding: 15px 10px 25px 10px;
+      border-radius: 8px;
+    }
+  
+    input {
+      padding: 14px 16px;
+      font-size: 14px;
+    }
+  
+    .form-container button {
+      font-size: 15px;
+      padding: 14px;
+    }
+  
+    .login-link {
+      font-size: 14px;
+    }
+  
+    .forget-p {
+      font-size: 14px;
+    }
+  
+    .password-flex img {
+      width: 16px;
+      height: 16px;
+      left: -12px;
+    }
+  }
+  
 .newherott-area {
     background-color: #fff;
-    padding: 60px 0;
+    padding: 20px 0px 60px 0px;
     padding-bottom: 0px;
 }
 
@@ -2039,7 +1979,7 @@ p.innterpromo5 {
         margin-top: 2px;
     }
     .header-area {
-        padding: 2px 0;
+        padding: 10px 0 2px 0px;
     }
     .topbg {
         position: absolute;
@@ -2160,4 +2100,10 @@ p.innterpromo5 {
         padding: 15px 15px;
         bottom: 12px;
     }
+}
+
+.register-section {
+    padding: 40px;
+    border-bottom: 1px solid #a6a6a6;
+    padding-bottom: 80px;
 }
