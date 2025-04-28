@@ -1774,8 +1774,16 @@ input.forgot-password-btn {
 .promo-area {
     background-color: #fff;
     padding: 40px 0px 0px 0px;
+    overflow: hidden;
 }
-
+.promopart{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 35px;
+    align-items: center;
+    justify-content: space-around;
+    grid-row-gap: 35px;
+}
 .promopart {
     position: relative;
     display: grid;
@@ -1803,11 +1811,10 @@ input.forgot-password-btn {
 }
 
 .innterpromo {
-    position: absolute;
+    position: relative;
     z-index: 999;
     padding: 30px;
     width: 100%;
-    box-sizing: border-box;
     bottom: 15px;
 }
   
@@ -1858,6 +1865,9 @@ input.forgot-password-btn {
 }
 .promo-box-5{
     background: #006B97;
+}
+.promo-box.promo-box-5 {
+    height: 348px;
 }  
 .innterpromo p {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -1884,40 +1894,51 @@ p.innterpromo5 {
     color: #bdecff;
     font-size: 38px;
 }
-.innterpromo a {
+.promo-button-area {
+    position: relative;
+    bottom: 120px; 
+    z-index: 999;
+    margin: 0px 30px;
+}
+
+a.get-bonus-btn {
     color: #000;
-    font-family: Poppins;
+    font-family: Poppins, sans-serif;
     font-size: 18px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
+    line-height: 48px;
     text-transform: capitalize;
     width: 170px;
     height: 48px;
     display: block;
-    line-height: 48px;
     text-align: center;
     transition: 0.3s all ease;
-    margin-top: 20px;
     position: relative;
-    z-index: 999;
     border-radius: 100px;
     background: linear-gradient(180deg, #FDEB9A 0%, #C09640 100%);
     box-shadow: 0px 4px 9.1px 0px rgba(0, 0, 0, 0.25) inset, 0px 4px 9.2px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 20px;
 }
-.innterpromo1 a:hover{
+
+a.get-bonus-btn.get-bonus-btn-1:hover {
     background: linear-gradient(180deg, #ffffff 0%, #5795ff 100%);
 }
-.innterpromo2 a:hover{
+
+a.get-bonus-btn.get-bonus-btn-5:hover{
+    background: linear-gradient(180deg, #ffffff 0%, #5795ff 100%);
+}
+a.get-bonus-btn.get-bonus-btn-2:hover{
     background: linear-gradient(180deg, #ffffff 0%, #ba49bd 100%);
 }
-.innterpromo3 a:hover{
+a.get-bonus-btn.get-bonus-btn-3:hover{
     background: linear-gradient(180deg, #ffffff 0%, #46cb65 100%);
 }
-.innterpromo4 a:hover{
+a.get-bonus-btn.get-bonus-btn-4:hover{
     background: linear-gradient(180deg, #ffffff 0%, #ec4c44 100%);
 }
-  
+.promo-wrapper {
+    height: 315px;
+}  
 .heroteam-part {
     height: 346px;
     border-radius: 8px;
@@ -1951,7 +1972,7 @@ p.innterpromo5 {
     padding: 30px;
     width: 100%;
     box-sizing: border-box;
-    bottom: 30px;
+    bottom: 105px;
 }
   
 .innerheroteam h2 {
@@ -1967,7 +1988,7 @@ p.innterpromo5 {
 }
   
   
-.innerheroteam a {
+.innerheroteam button {
     color: #000;
     font-family: Poppins;
     font-size: 18px;
@@ -1989,15 +2010,36 @@ p.innterpromo5 {
     box-shadow: 0px 4px 9.1px 0px rgba(0, 0, 0, 0.25) inset, 0px 4px 9.2px 0px rgba(0, 0, 0, 0.25);
 }
 
-.innerheroteam a:hover {
+.innerheroteam button:hover {
     background: linear-gradient(180deg, #ffffff 0%, #6cbbdb 100%);
 }
 @media screen and (max-width: 868px) and (min-width: 767px){
     header.header-area.sm-part-none {
         display: none;
     }
+    .promo-wrapper {
+        height: 345px;
+    }
 }
 @media screen and (max-width: 600px) {
+    header.header-area.sm-part-none {
+        display: none;
+    }
+    .promo-section {
+        padding: 20px 0px 20px 0px;
+    }
+    .promo-area {
+        padding: 12px 0px 0px 0px;
+        overflow: hidden;
+    }
+    .promobanner-part h1 {
+        font-size: 30px;
+        line-height: normal;
+    }
+    .promobanner-part p {
+        font-size: 15px;
+        line-height: normal;
+    }
     .topheader-right ul li a img {
         width: 20px;
         display: block;
@@ -2008,93 +2050,54 @@ p.innterpromo5 {
         gap: 0px;
     }
     .promo-box {
-        height: 200px;
-        margin-bottom: 22px;
-    }
-    .promo-box {
-        object-fit: cover;
-    }
-    .innterpromo h2 {
-        font-size: 24px;
-        line-height: normal;
-        padding: 0px;
-    }
-    .innterpromo p {
-        font-size: 18px;
-        font-style: normal;
-        line-height: 30px; /* 166.667% */
+        height: 225px;
     }
     .badge img {
         width: 40px;
-        top: -18px;
-        left: 5px;
+        top: -16px;
+        left: 8px;
     }
-    .innterpromo {
-        padding: 15px 15px;
-        bottom: 26px;
+    .promo-wrapper {
+        height: 244px;
     }
-    .innterpromo a {
+    a.get-bonus-btn {
         font-size: 16px;
-        width: 136px;
-        height: 38px;
-        line-height: 38px;
-        margin-top: 2px;
+        line-height: 40px;
+        width: 150px;
+        height: 40px;
+        margin-top: 32px;
     }
-    .header-area {
-        padding: 10px 0 2px 0px;
+    .promo-button-area {
+        margin: 0px 15px;
     }
-    .topbg {
-        position: absolute;
-        right: 0;
-        top: 0;
-        max-width: 100%;
-        height: 100%;
-    }
-    .promobanner-part h1 {
-        font-size: 30px;
-        line-height: normal;
-    }
-    .promobanner-part p {
-        font-size: 15px;
-        line-height: normal;
-    }
-    .promo-area {
-        padding: 20px 0px 0px 0px;
-    }
-    header.header-area.sm-part-none {
+    .heroteamimg {
         display: none;
-    }
-    .promo-section {
-        padding: 20px 0px 20px 0px;
     }
     .heroteamimg2 {
         display: block;
         object-fit: unset;
     }
-    .heroteamimg {
-        display: none;
+    .heroteam-part {
+        margin-top: 0px;
     }
     .innerheroteam.innterpromo.innterpromo-5 {
-        bottom: 160px;
-    }
-    .innerheroteam.innterpromo.innterpromo-5 h2 {
-        font-size: 30px;
+        bottom: 208px;
     }
     p.innterpromo5 {
         font-size: 22px;
     }
     .innerheroteam.innterpromo.innterpromo-5 h2 {
         font-size: 30px;
-        padding: 0px 0px 4px 0px;
-        margin: 0px;
     }
-    .heroteam-part {
-        margin-top: 20px;
+    .promo-button-area.bt-5 {
+        position: relative;
+        margin-top: -115px;
     }
-    .promo-box-5 {
-        background: transparent;
+    .promo-box.promo-box-5 {
+        height: 346px;
     }
 }
+
 @media screen and (max-width: 896px) and (min-width: 601px) {
     .promopart {
         display: block;
@@ -2115,14 +2118,17 @@ p.innterpromo5 {
         object-fit: unset;
     }
     .heroteam-part {
-        margin-top: 30px;
+        margin-top: 0px;
+    }
+    .heroteam-part.promo-box-5 {
+        height: 496px;
     }
 }
 @media screen and (max-width: 1250px) and (min-width: 897px) {
     .innterpromo h2 {
-        font-size: 34px;
+        font-size: 32px;
         padding: 30px 0px 0px 0px;
-        line-height: 50px;
+        line-height: 38px;
     }
     .innterpromo p {
         font-size: 28px;
@@ -2138,22 +2144,58 @@ p.innterpromo5 {
         height: 300px;
     }
     .innerheroteam.innterpromo.innterpromo-5 h2 {
-        font-size: 43px;
-        line-height: 50px;
+        font-size: 40px;
+        line-height: 30px;
     }
     .innerheroteam.innterpromo.innterpromo-5 p {
         font-size: 32px;
-        line-height: 50px;
+        line-height: 38px;
+    }
+    .promo-wrapper {
+        height: 275px;
+    }
+    .innterpromo {
+        bottom: 0px;
+    }
+    a.get-bonus-btn {
+        margin-top: 25px;
+    }
+    .innerheroteam.innterpromo.innterpromo-5 {
+        bottom: 115px;
+    }
+    .promo-button-area.bt-5 {
+        bottom: 155px;
+    }
+    .heroteam-part.promo-box-5 {
+        height: 350px;
+    }
+    .promo-box.promo-box-5 {
+        height: 350px;
+    }
+    .promobanner-part h1 {
+        font-size: 42px;
+    }
+    .promobanner-part p {
+        font-size: 17px;
+    }
+    .topbg {
+        height: 134px;
     }
 }
 @media screen and (max-width: 600px) and (min-width: 380px){
     .innterpromo h2 {
         font-size: 26px;
-        line-height: 34px;
+        line-height: 28px;
     }
     .innterpromo p {
         font-size: 22px;
-        line-height: 34px;
+        line-height: 48px;
+        padding: 0px;
+    }
+    p.innterpromo5{
+        font-size: 22px;
+        line-height: 30px;
+        padding: 0px;
     }
     .innterpromo a {
         margin-top: 8px;
@@ -2161,5 +2203,57 @@ p.innterpromo5 {
     .innterpromo {
         padding: 15px 15px;
         bottom: 12px;
+    }
+}
+@media screen and (max-width: 390px) and (min-width: 300px){
+    .promo-box {
+        height: 202px;
+    }
+    .innterpromo p {
+        font-size: 18px;
+        font-style: normal;
+        line-height: 30px;
+    }
+    .innterpromo h2 {
+        font-size: 24px;
+        line-height: normal;
+        padding: 0px;
+    }
+    a.get-bonus-btn {
+        font-size: 16px;
+        width: 136px;
+        height: 38px;
+        line-height: 38px;
+        margin-top: 2px;
+    }
+    .innterpromo {
+        position: relative;
+        z-index: 999;
+        padding: 30px;
+        width: 100%;
+        bottom: -10px;
+    }
+    .promo-button-area {
+        bottom: 80px;
+    }
+    .innterpromo {
+        padding: 30px 15px;
+    }
+    .innerheroteam.innterpromo.innterpromo-5 {
+        bottom: -12px;
+    }
+    .innerheroteam.innterpromo.innterpromo-5 h2 {
+        margin: 0px;
+    }
+    p.innterpromo5 {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .promo-button-area.bt-5 {
+        position: relative;
+        margin-top: -127px;
+    }
+    .promo-wrapper {
+        height: 225px;
     }
 }
